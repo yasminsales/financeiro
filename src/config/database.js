@@ -1,7 +1,7 @@
 module.exports = {
-  database: "projeto-login-db",
+  database: "USERS2",
   username: "root",
-  password: "@12345678#",
+  password: "12345678",
   host: "localhost",
   dialect: "mysql",
   define: {
