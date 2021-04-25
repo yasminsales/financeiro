@@ -41,12 +41,12 @@ class RendaController{
         return response.json(rendas);
     }
 
-    /* async delete(request, response) {
-		const rendas = await Renda.findByPk(request.body.id); 	
-        rendas.destroy();
+    async delete(request, response) {
+		const renda = await Renda.findByPk(request.body.id); 	
+        renda.destroy();
 
         return response.json({success: true});
-    } */
+    } 
 
 }
 

@@ -1,7 +1,6 @@
 {
   "name": "tutorial-projeto-login",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +22,14 @@
     "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0",
     "sucrase": "^3.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo33/financeiro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigo33/financeiro/issues"
+  },
+  "homepage": "https://github.com/rodrigo33/financeiro#readme",
+  "description": ""
 }

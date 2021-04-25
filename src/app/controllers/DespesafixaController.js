@@ -36,6 +36,16 @@ class DespesafixaController{
             telefonia,
         });
     }    
+
+    async delete(request, response) {
+		const despesafixa = await Despesafixa.findByPk(request.body.id); 	
+        despesafixa.destroy();
+
+        return response.json({success: true});
+    } 
+
+
+
 }
 
 export default new DespesafixaController();

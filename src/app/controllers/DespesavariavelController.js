@@ -25,6 +25,14 @@ class DespesavariavelController{
             medicamento,
         });
     }    
+
+    async delete(request, response) {
+		const despesavariavels = await Despesavariavel.findByPk(request.body.id); 	
+        despesavariavels.destroy();
+
+        return response.json({success: true});
+    } 
+
 }
 
 export default new DespesavariavelController();
