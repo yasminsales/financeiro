@@ -21,6 +21,7 @@ class RendaController{
         });
     }      
     
+
     async update(request, response) {
 
 		
@@ -48,7 +49,6 @@ class RendaController{
 
         return response.json({success: true});
     }
-
 }
 
 export default new RendaController();

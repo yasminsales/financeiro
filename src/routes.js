@@ -25,11 +25,11 @@ routes.post("/despesafixas", Despesafixa.store);
 routes.use(authMiddleware);
 
 routes.put("/users", UserController.update);
+
 routes.put("/rendas", RendaController.update);
 
 routes.get('/rendas', RendaController.query);
 routes.delete('/renda', RendaController.delete);
-
 
 
 routes.post('/files', upload.single('file'), FileController.store);
